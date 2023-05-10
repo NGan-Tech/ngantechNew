@@ -251,7 +251,7 @@
             <div class="input-cnt-1_cubik1"></div>
             <input placeholder="Имя" type="text" class="form_name" id="name" name="name">
             <div class="input-cnt-1_cubik2"></div>
-            <input placeholder="Телефон" type="tel" class="form_phone" id="phone" name="phone">
+            <input placeholder="Телефон" type="tel" class="form_phone" id="telephone" name="telephone">
 
           </div>
           <div class="input-cnt-2">
@@ -269,13 +269,13 @@
             <div class="input-cnt-4_cubik1"></div>
             <textarea placeholder="Сообщение" class="form_text" name="message" id="message"></textarea>
             <label class="input-file">
-              <input type="file" name="file">
+              <input type="file" name="file" id="file">
               <span class="input-file-text">Прикрепить файл <img src="img/Vector.svg" alt="выбор файла" height="15px"
                                                                  width="15px"/></span>
             </label>
             <div class="input-cnt-4_cubik2"></div>
           </div>
-          <div>
+          <div onclick="sendMessage()">
             <div class="btn">
               <!-- Текст -->
               <span class="btn-text">Оставить заявку</span>
@@ -312,10 +312,8 @@
               </svg>
             </div>
           </div>
-
           <p class="button_text">Нажимая на кнопку, вы соглашаетесь
             с <a href="#" class="blue_text">Политикой персональных данных</a></p>
-
         </form>
       </div>
     </section>
@@ -350,4 +348,6 @@
 <script src="js/slider.js"></script>
 <script src="js/burger.js"></script>
 <script src="js/inputfile.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="js/form.js"></script>
 </html>
