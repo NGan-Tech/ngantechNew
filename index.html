@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NganTech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Jura:wght@400;500;600&family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/header.css"/>
+  <link rel="stylesheet" href="css/welcome.css"/>
+  <link rel="stylesheet" href="css/ourWork.css"/>
+  <link rel="stylesheet" href="css/services.css"/>
+  <link rel="stylesheet" href="css/how.css"/>
+  <link rel="stylesheet" href="css/finally.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="burger_btn__cnt">
+      <div class="menu-btn" onclick="fixBurger()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <div class="header__burger none">
+      <nav class="burger">
+        <ul class="burger__list">
+          <div class="burger_cubic1"></div>
+          <li class="burger__list_item" style="background-color:#FE6F27;">
+            <a class="burger__link animation_link" href="#site-header">Главная</a>
+            <div class="blue_cubik_wrapper"><div class="black_cubik"></div><div class="black_cubik"></div><div class="black_cubik"></div></div>
+          </li>
+          <li class="burger__list_item">
+            <a class="burger__link animation_link" href="#ourWork">Услуги</a>
+          </li>
+          <li class="burger__list_item">
+            <div class="blue_cubik_wrapper2"><div class="blue_cubik"></div><div class="blue_cubik"></div><div class="blue_cubik"></div></div>
+            <a class="burger__link animation_link" href="#advantages">Портфолио</a>
+          </li>
+          <li class="burger__list_item" style="background-color:#FE6F27;">
+            <div class="blue_cubik_wrapper3"><div class="blue_cubik"></div><div class="blue_cubik"></div><div class="blue_cubik"></div></div>
+            <a class="burger__link animation_link" href="#services">Контакты</a>
+          </li>
+          <div class="burger_cubic2"></div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="welcome_section">
+      <div class="welcome__container">
+        <h2 class="h2_text">
+          <span class="blue_text">IT</span> Компания по <br>
+          <span class="blue_text">web</span>-разработке
+        </h2>
+        <div>
+          <div class="btn">
+            <!-- Текст -->
+            <span class="btn-text">Оставить заявку</span>
+            <!-- Засечки -->
+            <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="4" y1="10" x2="38" y2="10" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="282" y1="39" x2="305" y2="39" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="60" y1="46" x2="70" y2="46" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="70" y1="49" x2="80" y2="49" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="224" y1="1" x2="234" y2="1" stroke="#00FDFF" stroke-width="2"/>
+              <line x1="286" y1="43" x2="320" y2="43" stroke="#00FDFF" stroke-width="2"/>
+            </svg>
+
+            <div class="parent">
+              <svg class="main" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
+                      stroke-width="3"/>
+              </svg>
+
+              <!-- Фон оранжевой рамки -->
+              <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
+                      stroke-width="3"/>
+              </svg>
+            </div>
+
+            <!-- Оранжевая рамка -->
+
+            <!-- Синий бордер -->
+            <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="about__container">
+        <h2 class="h2_text">
+          <span class="blue_text">О</span> нас
+        </h2>
+        <p class="about_text"><span class="blue_text">Ngan Tech</span> - молодая IT компания, уже успевшая
+          зарекомендовать себя как надежный партнер в IT-сфере. Наша
+          команда постоянно развивает и совершенствует свои навыки, чтобы предоставлять нашим клиентам самые современные
+          и эффективные решения. Мы готовы помочь вам достичь успеха в вашем бизнесе с помощью наших IT-решений.</p>
+      </div>
+    </section>
+    <section class="our_work">
+      <h2 class="h2_text"><span class="blue_text">Наши</span> Работы</h2>
+      <div class="wrapper_carousel">
+        <div class="cubik1"></div>
+        <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="https://place-hold.it/300x200.jpg" alt="">
+              </li>
+              <li class="splide__slide">
+                <img src="https://place-hold.it/300x200.jpg" alt="">
+              </li>
+              <li class="splide__slide">
+                <img src="https://place-hold.it/300x200.jpg" alt="">
+              </li>
+              <li class="splide__slide">
+                <img src="https://place-hold.it/300x200.jpg" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cubik2"></div>
+      </div>
+    </section>
+    <section class="services_section">
+      <h2 class="h2_text"><span class="blue_text">У</span>слуги</h2>
+      <div class="services_swiper__container">
+        <div id="service-carousel" style="margin: 0 auto;" class="splide" aria-label="Beautiful Images">
+          <div class="splide__track service-carousel__wrapper">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="slide_inforamtion">
+                  <h3 class="h3_text_services"><span class="blue_text">Web </span>Разработка</h3>
+                  <span class="span_services">от 55.000 ₽</span>
+                  <ul class="services_ul">
+                    <li><span class="services_li__span">Landing page</span></li>
+                    <li><span class="services_li__span">Разработки online магазинов</span></li>
+                    <li><span class="services_li__span">Разработка мобильных приложений</span></li>
+                  </ul>
+                  <div class="services_btn">
+                    <div class="services_btn_cubik_1"></div>
+                    <span class="services_btn_text">Оставить заявку</span>
+                    <div class="services_btn_cubik_2"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="slide_inforamtion">
+                  <h3 class="h3_text_services"><span class="blue_text">финансовые</span> и <span class="blue_text">бизнес</span>решения
+                  </h3>
+                  <span class="span_services">от 250.000 ₽</span>
+                  <ul class="services_ul">
+                    <li><span class="services_li__span">Разработки криптобирж</span></li>
+                    <li><span class="services_li__span">Разработки Разработка NFT и маркетплейсов</span></li>
+                    <li><span class="services_li__span">Написание корпоративных платформ</span></li>
+                  </ul>
+                  <div class="services_btn" style="min-height: 30px">
+                    <div class="services_btn_cubik_1"></div>
+                    <span class="services_btn_text" style="margin-top: 3px">Оставить заявку</span>
+                    <div class="services_btn_cubik_2"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide caru">
+                <div class="slide_inforamtion">
+                  <h3 class="h3_text_services"><span class="blue_text">доп.</span> услуги</h3>
+                  <div class="span_services">от 250.000 ₽</div>
+                  <ul class="services_ul">
+                    <li><span class="services_li__span">Разработки ботов для любых мессенджеров и соц.сетей</span></li>
+                    <li><span class="services_li__span">Браузерный game dev</span></li>
+                    <li><span class="services_li__span">Telegram game dev</span></li>
+                  </ul>
+                  <div class="services_btn">
+                    <div class="services_btn_cubik_1"></div>
+                    <span class="services_btn_text">Оставить заявку</span>
+                    <div class="services_btn_cubik_2"></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sevice_cubik1"></div>
+        <div class="sevice_cubik2"></div>
+      </div>
+    </section>
+    <section class="how_section">
+      <h2 class="h2_text"><span class="blue_text">Как</span> Начать работать с<br> нами?</h2>
+      <div>
+        <div class="line__container">
+          <div class="wrapper_line">
+            <img class="punctir" src="img/punctir.svg" alt="punctir">
+            <img class="round_1" src="img/1.svg" alt="round 1"/>
+            <p class="round_1-text">Оставьте заявку на свой проект</p>
+            <img class="round_2" src="img/2.svg" alt="round 2"/>
+            <p class="round_2-text">Дождитесь ответа от нашей компании</p>
+            <img class="round_3" src="img/3.svg" alt="round 3"/>
+            <p class="round_3-text">Обсуждаем детали проекта</p>
+            <img class="round_4" src="img/4.svg" alt="round 4"/>
+            <p class="round_4-text">Заключаем договор</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="finally">
+      <h2 class="h2_text"><span class="blue_text">Начнём</span> работу над вашем проектом?</h2>
+      <div class="finally__container">
+
+        <form class="form" id="form" name="form">
+
+          <div class="input-cnt-1">
+            <div class="input-cnt-1_cubik1"></div>
+            <input placeholder="Имя" type="text" class="form_name" id="name" name="name">
+            <div class="input-cnt-1_cubik2"></div>
+            <input placeholder="Телефон" type="tel" class="form_phone" id="phone" name="phone">
+
+          </div>
+          <div class="input-cnt-2">
+            <div class="input-cnt-2_cubik1"></div>
+            <input placeholder="Ваша компания" type="text" class="form_company" id="company" name="company">
+            <div class="input-cnt-2_cubik2"></div>
+            <input placeholder="Email" type="email" class="form_mail" id="email" name="email">
+          </div>
+          <div class="input-cnt-3">
+            <div class="input-cnt-3_cubik1"></div>
+            <input placeholder="Введите ваш бюджет" type="text" class="form_money" id="money">
+            <div class="input-cnt-3_cubik2"></div>
+          </div>
+          <div class="wrapper_textarea">
+            <div class="input-cnt-4_cubik1"></div>
+            <textarea placeholder="Сообщение" class="form_text" name="message" id="message"></textarea>
+            <label class="input-file">
+              <input type="file" name="file">
+              <span class="input-file-text">Прикрепить файл <img src="img/Vector.svg" alt="выбор файла" height="15px"
+                                                                 width="15px"/></span>
+            </label>
+            <div class="input-cnt-4_cubik2"></div>
+          </div>
+          <div>
+            <div class="btn">
+              <!-- Текст -->
+              <span class="btn-text">Оставить заявку</span>
+              <!-- Засечки -->
+              <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="4" y1="10" x2="38" y2="10" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="282" y1="39" x2="305" y2="39" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="60" y1="46" x2="70" y2="46" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="70" y1="49" x2="80" y2="49" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="224" y1="1" x2="234" y2="1" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="286" y1="43" x2="320" y2="43" stroke="#00FDFF" stroke-width="2"/>
+              </svg>
+              <div class="parent">
+                <svg class="main" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+
+                <!-- Фон оранжевой рамки -->
+                <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+              </div>
+              <!-- Оранжевая рамка -->
+              <!-- Синий бордер -->
+              <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
+              </svg>
+            </div>
+          </div>
+
+          <p class="button_text">Нажимая на кнопку, вы соглашаетесь
+            с <a href="#" class="blue_text">Политикой персональных данных</a></p>
+
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+
+      <div class="footer-1">
+        <img src="./img/image 47.svg" alt="footer logo" class="footer-logo">
+        <h3 class="footer-title">NGan Tech - мощь технологий, подчиненные вашим желаниям</h3>
+      </div>
+
+      <div class="footer-2">
+        <p class="footer-subtitle">© 2023 NGAN TECH. ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+
+        <div class="footer-media">
+          <div class="footer-socials">
+            <img src="./img/tg.svg" alt="tg" class="tg">
+            <img src="./img/inst.svg" alt="inst" class="inst">
+            <img src="./img/vk.svg" alt="vk" class="vk">
+          </div>
+        </div>
+
+      </div>
+      <p class="footer-phone">+7 963 579 49 53</p>
+
+    </div>
+  </footer>
+</div>
+</body>
+<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+<script>
+    new Splide('#image-carousel', {
+        direction: 'ttb',
+        height: '200px'
+    }).mount();
+</script>
+<script>
+    new Splide('#service-carousel', {
+        type: 'loop',
+        height: '370px',
+        width: '200px',
+    }).mount();
+</script>
+<script src="js/burger.js"></script>
+<script src="js/inputfile.js"></script>
+</html>

@@ -1,0 +1,304 @@
+
+.finally {
+    margin-bottom: 30px;
+}
+
+.finally__container {
+}
+
+.input-cnt-1 {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-cnt-2 {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form {
+    margin-top: 25px;
+}
+
+.form_name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    width: 146px;
+    height: 35px;
+    color: #C2C2C2;
+    outline: none;
+    margin-right: 9px;
+    padding-left: 10px;
+    background: rgba(255, 132, 2, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid #FF9900;
+}
+
+
+.form_phone {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    width: 146px;
+    height: 35px;
+    color: #C2C2C2;
+    outline: none;
+    margin-right: 9px;
+    padding-left: 10px;
+    background: rgba(255, 132, 2, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid #FF9900;
+}
+
+.form_company {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    width: 146px;
+    height: 35px;
+    color: #C2C2C2;
+    outline: none;
+    margin-right: 9px;
+    padding-left: 10px;
+    background: rgba(255, 132, 2, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid #FF9900;
+}
+
+.form_mail {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    width: 146px;
+    height: 35px;
+    color: #C2C2C2;
+    outline: none;
+    margin-right: 9px;
+    padding-left: 10px;
+    background: rgba(255, 132, 2, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid #FF9900;
+}
+
+.form_money {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    height: 35px;
+    width: 300px;
+    color: #C2C2C2;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    background: rgba(255, 132, 2, 0.4);
+    backdrop-filter: blur(20px);
+    border: 1px solid #FF9900;
+}
+
+.form_text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    width: 280px;
+    height: 80px;
+    color: #C2C2C2;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.wrapper_textarea {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 300px;
+    height: 120px;
+    background: rgba(255, 132, 2, 0.4);
+    border: 1px solid #FF9900;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+
+.btn {
+}
+
+.btn-text {
+}
+
+.serifs {
+}
+
+.parent {
+}
+
+.main {
+}
+
+.back {
+}
+
+.border {
+}
+
+.button_text {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.file-img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.input-file {
+    position: relative;
+    display: inline-block;
+    top: 9px;
+    left: 163px;
+}
+
+.input-file-btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.input-file-text {
+    padding: 0 10px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 8px;
+    text-align: center;
+    color: #797979;
+    display: inline-block;
+}
+
+.input-file-text img {
+    vertical-align: sub;
+}
+
+.input-file input[type=file] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.input-cnt-1_cubik1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: -12px;
+    left: -12px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(135deg);
+}
+
+.input-cnt-1_cubik2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: 22px;
+    left: 288px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(-45deg);
+}
+
+.input-cnt-2_cubik1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: -12px;
+    left: -12px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(135deg);
+}
+
+.input-cnt-2_cubik2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: 22px;
+    left: 288px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(-45deg);
+}
+
+.input-cnt-3 {
+    position: relative;
+}
+
+.input-cnt-3_cubik1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: -12px;
+    left: -12px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(135deg);
+}
+
+.input-cnt-3_cubik2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: 22px;
+    left: 288px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(-45deg);
+}
+
+.input-cnt-4_cubik1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: -12px;
+    left: -12px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(135deg);
+}
+
+.input-cnt-4_cubik2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #FF9900;
+    border-radius: 2px;
+    top: 108px;
+    left: 289px;
+    z-index: 1;
+    background-color: #1a1a1a;
+    transform: rotate(-45deg);
+}

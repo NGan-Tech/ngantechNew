@@ -1,0 +1,26 @@
+.welcome_section {
+    padding-bottom: 44px;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 11px;
+    border-image-source: url('../img/line.svg');
+    border-image-slice: 0 0 100% 0;
+}
+
+.welcome__container {
+    margin-top: 2vh;
+}
+
+.about__container {
+    margin-top: 76px;
+}
+
+.about_text {
+    margin-top: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 121%;
+    letter-spacing: -0.015em;
+}

@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    width: 320px;
+    height: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 17px;
+}
+
+.btn * {
+    display: inline-block;
+    position: absolute;
+}
+
+.btn-text {
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    z-index: 500;
+    top: 18px;
+    left: 35px;
+    cursor: pointer;
+    margin-left: 54px;;
+}
+
+.serifs {
+    z-index: 400;
+    top: 5px;
+    left: 0;
+}
+
+
+.main {
+    fill: transparent;
+    z-index: 300;
+    top: 0;
+    left: 13px;
+}
+
+.back {
+    z-index: 200;
+    top: 0;
+    left: 13px;
+    width: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.border {
+    z-index: 100;
+    bottom: 0;
+    right: 16px;
+}
+
+/* .btn {
+} */
+
+.parent {
+    width: 287px;
+    height: 60px;
+}
+
+.btn:hover .back {
+    cursor: pointer;
+    width: 100%;
+    animation: anim .35s ease-in;
+}
+
+@keyframes anim {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.h2_text {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.blue_text {
+    color: #00FDFF;
+}
+
+

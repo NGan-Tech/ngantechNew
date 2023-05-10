@@ -1,0 +1,64 @@
+.our_work {
+    margin-top: 18px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 11px;
+    border-image-source: url('../img/line2.svg');
+    border-image-slice: 0 0 100% 0;
+}
+
+.wrapper_carousel {
+    margin: 21px auto 0;
+    width: 304px;
+    height: 203px;
+    border: 2px solid #00FDFF;
+    position: relative;
+}
+
+.splide__arrow {
+    display: none !important;;
+}
+
+.cubik1 {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    height: 30px;
+    width: 31px;
+    background-color: #1A1A1A;
+    border-bottom: 2px solid #00FDFF;
+    transform: rotate(-45deg);
+    z-index: 1
+}
+
+.cubik2 {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    height: 30px;
+    width: 31px;
+    background-color: #1A1A1A;
+    border-top: 2px solid #00FDFF;
+    transform: rotate(-45deg);
+}
+
+.splide__pagination--ttb {
+    position: absolute !important;
+    left: -330px !important;
+}
+
+.splide__pagination__page {
+    border-radius: 50%;
+    background-color: transparent !important;;
+    border: 0.5px solid #FF9900 !important;
+}
+
+.splide__pagination__page .is-active {
+    background-color: #FF5500 !important;
+    border: 1px solid #FF5500 !important;
+}
+.splide__pagination__page.is-active{
+    background-color: #FF5500 !important;
+    border: 1px solid #FF5500 !important;
+}
