@@ -28,7 +28,14 @@ h6 {
     font-size: inherit;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-image: url('../img/sota1.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
     background-color: #1A1A1A;
     color: white;
 }
@@ -142,4 +149,7 @@ textarea {
     color: #00FDFF;
 }
 
-
+.arrow {
+    position: absolute;
+    max-width: 100vw
+}

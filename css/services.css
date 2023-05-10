@@ -1,5 +1,8 @@
 .services_section {
     margin-top: 25px;
+    background-image: url('../img/sota3.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .services_swiper__container {

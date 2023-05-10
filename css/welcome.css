@@ -5,6 +5,9 @@
     border-bottom-width: 11px;
     border-image-source: url('../img/line.svg');
     border-image-slice: 0 0 100% 0;
+    background-image: url('../img/sota2.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .welcome__container {
@@ -13,6 +16,7 @@
 
 .about__container {
     margin-top: 76px;
+
 }
 
 .about_text {

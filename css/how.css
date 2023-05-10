@@ -12,6 +12,9 @@
     border-image-slice: 0 0 100% 0;
     margin-bottom: 50px;
     padding-bottom: 100px;
+    background-image: url('../img/sota4.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .round_1 {
@@ -51,7 +54,7 @@
     text-align: center;
     font-size: 13.5px;
     position: absolute;
-    top:127px;
+    top:140px;
     left: 17px;
     font-family: 'Source Sans Pro';
     font-style: normal;

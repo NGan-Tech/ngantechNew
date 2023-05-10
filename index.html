@@ -23,7 +23,8 @@
 </head>
 <body>
 <div class="wrapper">
-  <header class="header">
+
+  <header class="header" id="header">
     <div class="burger_btn__cnt">
       <div class="menu-btn" onclick="fixBurger()">
         <span class="bar"></span>
@@ -36,25 +37,47 @@
         <ul class="burger__list">
           <div class="burger_cubic1"></div>
           <li class="burger__list_item" style="background-color:#FE6F27;">
-            <a class="burger__link animation_link" href="#site-header">Главная</a>
+            <a class="burger__link animation_link" href="#header" onclick="fixBurger()">Главная</a>
             <div class="blue_cubik_wrapper"><div class="black_cubik"></div><div class="black_cubik"></div><div class="black_cubik"></div></div>
           </li>
           <li class="burger__list_item">
-            <a class="burger__link animation_link" href="#ourWork">Услуги</a>
+            <a class="burger__link animation_link" href="#services" onclick="fixBurger()">Услуги</a>
           </li>
           <li class="burger__list_item">
             <div class="blue_cubik_wrapper2"><div class="blue_cubik"></div><div class="blue_cubik"></div><div class="blue_cubik"></div></div>
-            <a class="burger__link animation_link" href="#advantages">Портфолио</a>
+            <a class="burger__link animation_link" href="#our_work" onclick="fixBurger()">Портфолио</a>
           </li>
-          <li class="burger__list_item" style="background-color:#FE6F27;">
+          <li class="burger__list_item" style="background-color:#FE6F27;" >
             <div class="blue_cubik_wrapper3"><div class="blue_cubik"></div><div class="blue_cubik"></div><div class="blue_cubik"></div></div>
-            <a class="burger__link animation_link" href="#services">Контакты</a>
+            <a class="burger__link animation_link" href="#footer" onclick="fixBurger()">Контакты</a>
           </li>
           <div class="burger_cubic2"></div>
         </ul>
       </nav>
     </div>
   </header>
+  <i>
+    <img src="./img/arrow1.svg" style="top: 50px;" class="arrow" alt="arrow" />
+    <img src="./img/arrow2.svg" style="top: 120px; left: 40px" class="arrow" alt="arrow2" />
+    <img src="./img/arrow3.svg" style="top: 130px; right: 20px" class="arrow" alt="arrow3" />
+    <img src="./img/arrow4.svg" style="top: 230px;" class="arrow" alt="arrow4" />
+    <img src="./img/arrow5.svg" style="top: 300px;" class="arrow" alt="arrow5" />
+    <img src="./img/arrow6.svg" style="top: 335px;left: 50vw;" class="arrow" alt="arrow6" />
+    <img src="./img/arrow7.svg" style="top: 550px;" class="arrow" alt="arrow7" />
+    <img src="./img/arrow8.svg" style="top: 630px; left: 5vw" class="arrow" alt="arrow8" />
+    <img src="./img/arrow8.svg" style="top: 650px; left: 70vw" class="arrow" alt="arrow9" />
+    <img src="./img/arrow9.svg" style="top: 600px; left: 50vw" class="arrow" alt="arrow9" />
+    <img src="./img/arrow10.svg" style="top: 700px;" class="arrow" alt="arrow10" />
+    <img src="./img/arrow11.svg" style="top: 830px;" class="arrow" alt="arrow11" />
+    <img src="./img/arrow12.svg" style="top: 985px;" class="arrow" alt="arrow12" />
+    <img src="./img/arrow13.svg" style="top: 1200px;" class="arrow" alt="arrow13" />
+    <img src="./img/arrow14.svg" style="top: 1450px; left: 45vw" class="arrow" alt="arrow14" />
+    <img src="./img/arrow15.svg" style="top: 1740px" class="arrow" alt="arrow15" />
+    <img src="./img/arrow16.svg" style="top: 1900px" class="arrow" alt="arrow16" />
+    <img src="./img/arrow17.svg" style="top: 2100px" class="arrow" alt="arrow17" />
+    <img src="./img/arrow18.svg" style="top: 2200px" class="arrow" alt="arrow18" />
+    <img src="./img/arrow19.svg" style="top: 2300px" class="arrow" alt="arrow19" />
+  </i>
   <main class="main">
     <section class="welcome_section">
       <div class="welcome__container">
@@ -113,7 +136,7 @@
           и эффективные решения. Мы готовы помочь вам достичь успеха в вашем бизнесе с помощью наших IT-решений.</p>
       </div>
     </section>
-    <section class="our_work">
+    <section id="our_work" class="our_work">
       <h2 class="h2_text"><span class="blue_text">Наши</span> Работы</h2>
       <div class="wrapper_carousel">
         <div class="cubik1"></div>
@@ -138,7 +161,7 @@
         <div class="cubik2"></div>
       </div>
     </section>
-    <section class="services_section">
+    <section id="services" class="services_section">
       <h2 class="h2_text"><span class="blue_text">У</span>слуги</h2>
       <div class="services_swiper__container">
         <div id="service-carousel" style="margin: 0 auto;" class="splide" aria-label="Beautiful Images">
@@ -297,7 +320,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="footer__container">
 
       <div class="footer-1">
@@ -324,19 +347,7 @@
 </div>
 </body>
 <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
-<script>
-    new Splide('#image-carousel', {
-        direction: 'ttb',
-        height: '200px'
-    }).mount();
-</script>
-<script>
-    new Splide('#service-carousel', {
-        type: 'loop',
-        height: '370px',
-        width: '200px',
-    }).mount();
-</script>
+<script src="js/slider.js"></script>
 <script src="js/burger.js"></script>
 <script src="js/inputfile.js"></script>
 </html>
