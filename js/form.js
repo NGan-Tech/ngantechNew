@@ -3,7 +3,7 @@ const modalElement = document.getElementById('modal')
 const success = document.querySelector('.notification_success')
 const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 const telephoneReg = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
-const thread_id = '2236'
+const thread_id = ''
 let text;
 
 
@@ -28,7 +28,7 @@ function sendMessage() {
     const company = document.getElementById("company").value;
     const money = document.getElementById("money").value;
     const file = document.getElementById("file").files[0];
-    const chatId = '-1001818216714';
+    const chatId = '';
     const messageText = `Имя: ${name} \n Email: ${email} \n Телефон: ${tel} \n Компания: ${company} \n Бюджет: ${money} \n Сообщение: ${message}`;
     const formData = new FormData();
     formData.append('chat_id', chatId);
@@ -85,7 +85,7 @@ function sendMessage() {
 
     if (file !== undefined && file !== null) {
         formData.append('document', file);
-        axios.post(`https://api.telegram.org/bot6179593214:AAH-21Aa5LevKZURInkoBpcdjwYNzhiGQmQ/sendDocument`, formData)
+        axios.post(`https://api.telegram.org/bot/sendDocument`, formData)
             .then((response) => {
                 console.log(response);
             })
@@ -93,7 +93,7 @@ function sendMessage() {
                 console.log(error);
             });
     } else {
-        axios.get(`https://api.telegram.org/bot6179593214:AAH-21Aa5LevKZURInkoBpcdjwYNzhiGQmQ/sendMessage?chat_id=${chatId}&message_thread_id=${thread_id}&text=${messageText}`)
+        axios.get(`https://api.telegram.org/bot/sendMessage?chat_id=${chatId}&message_thread_id=${thread_id}&text=${messageText}`)
             .then((response) => {
                 console.log(response);
             })
