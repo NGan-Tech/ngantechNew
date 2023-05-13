@@ -8,4 +8,5 @@ new Splide('#service-carousel', {
     type: 'loop',
     height: '370px',
     width: '200px',
+    drag: false
 }).mount();
