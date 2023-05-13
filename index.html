@@ -85,8 +85,8 @@
           <span class="blue_text">IT</span> Компания по <br>
           <span class="blue_text">web</span>-разработке
         </h2>
-        <div>
-          <div class="btn">
+        <a href="#form_section">
+          <div class="btn" >
             <!-- Текст -->
             <span class="btn-text">Оставить заявку</span>
             <!-- Засечки -->
@@ -124,7 +124,7 @@
               <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
             </svg>
           </div>
-        </div>
+        </a>
       </div>
       <div class="about__container">
         <h2 class="h2_text">
@@ -195,12 +195,12 @@
                   </ul>
                   <div class="services_btn" style="min-height: 30px">
                     <div class="services_btn_cubik_1"></div>
-                    <span class="services_btn_text" style="margin-top: 3px">Оставить заявку</span>
+                    <span class="services_btn_text" style="margin-top: 3px" onclick="">Оставить заявку</span>
                     <div class="services_btn_cubik_2"></div>
                   </div>
                 </div>
               </li>
-              <li class="splide__slide caru">
+              <li class="splide__slide caru btn3" >
                 <div class="slide_inforamtion">
                   <h3 class="h3_text_services"><span class="blue_text">доп.</span> услуги</h3>
                   <div class="span_services">от 250.000 ₽</div>
@@ -209,7 +209,7 @@
                     <li><span class="services_li__span">Браузерный game dev</span></li>
                     <li><span class="services_li__span">Telegram game dev</span></li>
                   </ul>
-                  <div class="services_btn">
+                  <div class="services_btn" >
                     <div class="services_btn_cubik_1"></div>
                     <span class="services_btn_text">Оставить заявку</span>
                     <div class="services_btn_cubik_2"></div>
@@ -241,7 +241,7 @@
         </div>
       </div>
     </section>
-    <section class="finally">
+    <section class="finally" id="form_section">
       <h2 class="h2_text"><span class="blue_text">Начнём</span> работу над вашем проектом?</h2>
       <div class="finally__container">
 
@@ -318,6 +318,9 @@
       </div>
     </section>
   </main>
+  <div class="modal_notification">
+    <span class="modal_notification__text">Заявка успешно отправлена</span>
+  </div>
   <footer id="footer" class="footer">
     <div class="footer__container">
 
@@ -338,8 +341,7 @@
         </div>
 
       </div>
-      <p class="footer-phone">+7 963 579 49 53</p>
-
+      <a href="tel:+79635794953"><p class="footer-phone">+7 963 579 49 53</p></a>
     </div>
   </footer>
 </div>
@@ -350,4 +352,15 @@
 <script src="js/inputfile.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 <script src="js/form.js"></script>
+<script>
+    // получаем div, на который будем вешать обработчик
+    let myDiv = document.getElementsByClassName("btn3")[0];
+    // назначаем обработчик события click на div
+    myDiv.addEventListener("click", function() {
+        // получаем элемент, до которого нужно прокрутить
+        let myElement = document.getElementById("form_section");
+        // прокручиваем страницу до элемента
+        myElement.scrollIntoView({behavior: "smooth"});
+    });
+</script>
 </html>

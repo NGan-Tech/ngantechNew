@@ -35,8 +35,12 @@
     background: rgba(255, 132, 2, 0.4);
     backdrop-filter: blur(20px);
     border: 1px solid #FF9900;
+
 }
 
+.form_name:focus {
+    transform: scale(1,01);
+}
 
 .form_phone {
     font-family: 'Source Sans Pro';
@@ -180,6 +184,10 @@
     text-align: center;
     color: #797979;
     display: inline-block;
+    max-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .input-file-text img {

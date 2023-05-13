@@ -1,20 +1,20 @@
 let open = false;
 const modalElement = document.getElementById('modal')
-const success = document.querySelector('.notification_success')
+const success = document.querySelector('.modal_notification')
 const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 const telephoneReg = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
 const thread_id = '2236'
 let text;
 
 
-// function showSuccess() {
-//     success.style.display = 'flex'
-//     console.log('qwe')
-//     setTimeout(() => {
-//         success.style.display = 'none'
-//         console.log('123')
-//     }, 3000)
-// }
+function showSuccess() {
+    success.style.display = 'flex'
+    console.log('qwe')
+    setTimeout(() => {
+        success.style.display = 'none'
+        console.log('123')
+    }, 3000)
+}
 
 const borderRed = "2px solid red"
 const borderNormal = "2px solid #0af9fa"
@@ -88,6 +88,7 @@ function sendMessage() {
         axios.post(`https://api.telegram.org/bot6179593214:AAH-21Aa5LevKZURInkoBpcdjwYNzhiGQmQ/sendDocument`, formData)
             .then((response) => {
                 console.log(response);
+                showSuccess()
             })
             .catch((error) => {
                 console.log(error);
@@ -96,6 +97,7 @@ function sendMessage() {
         axios.get(`https://api.telegram.org/bot6179593214:AAH-21Aa5LevKZURInkoBpcdjwYNzhiGQmQ/sendMessage?chat_id=${chatId}&message_thread_id=${thread_id}&text=${messageText}`)
             .then((response) => {
                 console.log(response);
+                showSuccess()
             })
             .catch((error) => {
                 console.log(error);
