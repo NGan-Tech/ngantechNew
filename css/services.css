@@ -34,7 +34,7 @@
     background-color: #1a1a1a;
     position: absolute;
     bottom: -9px;
-    left: 41px;
+    left: 56px;
     border-top: 2px solid #F90;
     transform: rotate(45deg);
     z-index: 9;
@@ -47,7 +47,7 @@
     background-color: #1a1a1a;
     position: absolute;
     top: -9px;
-    right: 41px;
+    right: 56px;
     border-bottom: 2px solid #F90;
     transform: rotate(45deg);
     z-index: 9;
@@ -79,35 +79,13 @@
 .services_swiper__container {
     margin-top: 25px;
 }
-
-@keyframes stol {
-    0% {
-        height: 380px
-    }
-    100% {
-        height: 400px
-    }
-}
-
-@keyframes ltos {
-    0% {
-        height: 400px
-    }
-    100% {
-        height: 380px
-    }
-}
-
-
 .how_section {
     margin-top: 78px;
 }
 
-
 #service-carousel-track {
     border: 2px solid #F90 !important;
 }
-
 
 .slide_inforamtion {
     display: flex;
@@ -128,8 +106,6 @@
     text-align: center;
     min-height: 40px;
 }
-
-
 
 .span_services {
     font-family: 'Source Sans Pro';
@@ -224,4 +200,17 @@
 .splide__slide {
     display: flex !important;
     justify-content: center !important;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1080px) {
+    .services_section {
+
+        background-position: right center;
+        background-size: 10%;
+    }
+}
+@media screen and (min-width: 650px) {
+    .services_section {
+        background-image: url("../img/sotaDesktop4.svg");
+    }
 }

@@ -23,50 +23,65 @@
 </head>
 <body>
 <div class="wrapper">
-
   <header class="header" id="header">
-    <div class="burger_btn__cnt">
-      <div class="menu-btn" onclick="fixBurger()">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+    <div class="header_wrapper">
+      <div class="header_cnt">
+        <div class="header_cubik1"></div>
+        <div class="header_button">Главная</div>
+        <div class="header_button">Услуги</div>
+        <div class="header_button">Портфолио</div>
+        <div class="header_button">Контакты</div>
+        <div class="header_cubik2"></div>
+      </div>
+      <a class="header_tel" href="tel:79635794953">
+        +7 963 579 49 53
+      </a>
+    </div>
+    <div class="burger_wrapper">
+      <div class="burger_btn__cnt">
+        <div class="menu-btn" onclick="fixBurger()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <div class="header__burger none">
+        <nav class="burger">
+          <ul class="burger__list">
+            <div class="burger_cubic1"></div>
+            <li class="burger__list_item" style="background-color:#FE6F27;" onclick="fixBurger('footer')">
+              <a class="burger__link animation_link" href="#header">Главная</a>
+              <div class="blue_cubik_wrapper">
+                <div class="black_cubik"></div>
+                <div class="black_cubik"></div>
+                <div class="black_cubik"></div>
+              </div>
+            </li>
+            <li class="burger__list_item" onclick="fixBurger('footer')">
+              <a class="burger__link animation_link" href="#services">Услуги</a>
+            </li>
+            <li class="burger__list_item" onclick="fixBurger('footer')">
+              <div class="blue_cubik_wrapper2">
+                <div class="blue_cubik"></div>
+                <div class="blue_cubik"></div>
+                <div class="blue_cubik"></div>
+              </div>
+              <a class="burger__link animation_link" href="#our_work">Портфолио</a>
+            </li>
+            <li class="burger__list_item" style="background-color:#FE6F27;" onclick="fixBurger('footer')">
+              <div class="blue_cubik_wrapper3">
+                <div class="blue_cubik"></div>
+                <div class="blue_cubik"></div>
+                <div class="blue_cubik"></div>
+              </div>
+              <a class="burger__link animation_link" href="#footer">Контакты</a>
+            </li>
+            <div class="burger_cubic2"></div>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="header__burger none">
-      <nav class="burger">
-        <ul class="burger__list">
-          <div class="burger_cubic1"></div>
-          <li class="burger__list_item" style="background-color:#FE6F27;" onclick="fixBurger('footer')">
-            <a class="burger__link animation_link" href="#header">Главная</a>
-            <div class="blue_cubik_wrapper">
-              <div class="black_cubik"></div>
-              <div class="black_cubik"></div>
-              <div class="black_cubik"></div>
-            </div>
-          </li>
-          <li class="burger__list_item" onclick="fixBurger('footer')">
-            <a class="burger__link animation_link" href="#services" >Услуги</a>
-          </li>
-          <li class="burger__list_item" onclick="fixBurger('footer')">
-            <div class="blue_cubik_wrapper2">
-              <div class="blue_cubik"></div>
-              <div class="blue_cubik"></div>
-              <div class="blue_cubik"></div>
-            </div>
-            <a class="burger__link animation_link" href="#our_work">Портфолио</a>
-          </li>
-          <li class="burger__list_item" style="background-color:#FE6F27;" onclick="fixBurger('footer')">
-            <div class="blue_cubik_wrapper3">
-              <div class="blue_cubik"></div>
-              <div class="blue_cubik"></div>
-              <div class="blue_cubik"></div>
-            </div>
-            <a class="burger__link animation_link" href="#footer" >Контакты</a>
-          </li>
-          <div class="burger_cubic2"></div>
-        </ul>
-      </nav>
-    </div>
+
   </header>
   <i>
     <img src="./img/arrow1.svg" style="top: 50px;" class="arrow" alt="arrow"/>
@@ -148,7 +163,7 @@
           и эффективные решения. Мы готовы помочь вам достичь успеха в вашем бизнесе с помощью наших IT-решений.</p>
       </div>
     </section>
-    <section id="our_work" class="our_work">
+    <section class="ourWork_section" id="our_work">
       <h2 class="h2_text"><span class="blue_text">Наши</span> Работы</h2>
       <div class="wrapper_carousel">
         <div class="cubik1"></div>
@@ -173,7 +188,7 @@
         <div class="cubik2"></div>
       </div>
     </section>
-    <section id="services" class="services_section">
+    <section  class="services_section" id="services">
       <h2 class="h2_text"><span class="blue_text">У</span>слуги</h2>
       <div class="services_swiper__container">
         <div id="service-carousel" style="margin: 0 auto;" class="splide" aria-label="Beautiful Images">
@@ -182,7 +197,8 @@
               <li class="splide__slide">
                 <div class="slide_inforamtion">
                   <div class="wrapper_card">
-                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}"><span class="blue_text">Web </span>Разработка</h3>
+                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}">
+                      <span class="blue_text">Web </span>Разработка</h3>
                     <span class="span_services">от 55.000 ₽</span>
                     <ul class="services_ul">
                       <li><span class="services_li__span">Landing page</span></li>
@@ -219,7 +235,8 @@
               <li class="splide__slide caru btn3">
                 <div class="slide_inforamtion">
                   <div class="wrapper_card">
-                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}"><span class="blue_text">доп.</span> услуги</h3>
+                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}">
+                      <span class="blue_text">доп.</span> услуги</h3>
                     <div class="span_services">от 250.000 ₽</div>
                     <ul class="services_ul">
                       <li><span class="services_li__span">Разработки ботов для любых мессенджеров и соц.сетей</span>
@@ -248,19 +265,28 @@
         <div class="line__container">
           <div class="wrapper_line">
             <img class="punctir" src="img/punctir.svg" alt="punctir">
-            <img class="round_1" src="img/1.svg" alt="round 1"/>
-            <p class="round_1-text">Оставьте заявку на свой проект</p>
-            <img class="round_2" src="img/2.svg" alt="round 2"/>
-            <p class="round_2-text">Дождитесь ответа от нашей компании</p>
-            <img class="round_3" src="img/3.svg" alt="round 3"/>
-            <p class="round_3-text">Обсуждаем детали проекта</p>
-            <img class="round_4" src="img/4.svg" alt="round 4"/>
-            <p class="round_4-text">Заключаем договор</p>
+            <img class="punctir_desktop" src="img/punctir_desktop.svg" alt="punctir">
+            <div class="round_1__wrapper">
+              <img class="round_1" src="img/1.svg" alt="round 1"/>
+              <p class="round_1-text">Оставьте заявку на свой проект</p>
+            </div>
+            <div class="round_2__wrapper">
+              <img class="round_2" src="img/2.svg" alt="round 2"/>
+              <p class="round_2-text">Дождитесь ответа от нашей компании</p>
+            </div>
+            <div class="round_3__wrapper">
+              <img class="round_3" src="img/3.svg" alt="round 3"/>
+              <p class="round_3-text">Обсуждаем детали проекта</p>
+            </div>
+            <div class="round_4__wrapper">
+              <img class="round_4" src="img/4.svg" alt="round 4"/>
+              <p class="round_4-text">Заключаем договор</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="finally" id="form_section">
+    <section class="finally_section" id="form_section">
       <h2 class="h2_text"><span class="blue_text">Начнём</span> работу над вашем проектом?</h2>
       <div class="finally__container">
 

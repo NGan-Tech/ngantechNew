@@ -16,7 +16,6 @@
 
 .about__container {
     margin-top: 76px;
-
 }
 
 .about_text {
@@ -27,4 +26,17 @@
     font-size: 17px;
     line-height: 121%;
     letter-spacing: -0.015em;
+}
+
+@media screen and (min-width: 650px) {
+    .welcome_section {
+        background-image: url('../img/sotaDescktop.svg');
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 1080px) {
+    .welcome_section {
+        background-position: left -60px top;
+        background-origin: border-box;
+        background-size: 30%;
+    }
 }

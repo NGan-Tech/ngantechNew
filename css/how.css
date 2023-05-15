@@ -101,3 +101,125 @@
 .line__container {
     margin-top: 25px;
 }
+.punctir_desktop {
+    display: none;
+}
+
+/*/// ADAPTIVE ///*/
+/*TABLE*/
+@media screen and (min-width: 650px) {
+    .how_section {
+        max-height: 500px;
+    }
+    .punctir {
+        display: none;
+    }
+    .punctir_desktop {
+        display: inline;
+        left: -219px;
+        position: relative;
+        height: 300px;
+    }
+    .round_1 {
+        width: 135px;
+        height: 135px;
+        position: static;
+    }
+    .round_2 {
+        width: 135px;
+        height: 135px;
+        position: static;
+    }
+    .round_3 {
+        width: 135px;
+        height: 135px;
+        position: static;
+    }
+    .round_4 {
+        width: 135px;
+        height: 135px;
+        position: static;
+    }
+    .round_1-text {
+        font-size: 15px;
+        font-weight: 400;
+        position: absolute;
+        margin: 0 auto;
+        top: 110px;
+    }
+    .round_2-text {
+        font-size: 15px;
+        font-weight: 400;
+        position: absolute;
+        margin: 0 auto;
+        top: 110px;
+        right: 15px;
+    }
+    .round_3-text {
+        font-size: 15px;
+        font-weight: 400;
+        position: absolute;
+        margin: 0 auto;
+        top: 110px;
+        right: 15px;
+    }
+    .round_4-text {
+        font-size: 15px;
+        font-weight: 400;
+        position: absolute;
+        margin: 0 auto;
+        top: 110px;
+        right: 15px;
+    }
+    .round_1__wrapper {
+        top: -141px;
+        left: -91px;
+        position: relative;
+        width: 135px;
+        height: 200px;
+    }
+    .round_2__wrapper {
+        top: -364px;
+        left: 65px;
+        position: relative;
+        width: 135px;
+        height: 200px;
+    }
+    .round_3__wrapper{
+        top: -582px;
+        left: 226px;
+        position: relative;
+        width: 135px;
+        height: 200px;
+    }
+    .round_4__wrapper {
+        top: -796px;
+        left: 361px;
+        position: relative;
+        width: 135px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 679px) {
+    .round_1__wrapper {
+        top: -167px;
+        left: 69px;
+    }
+    .round_2__wrapper {
+        top: -384px;
+        left: 246px;
+    }
+    .round_3__wrapper {
+        top: -604px;
+        left: 378px;
+    }
+    .round_4__wrapper {
+        top: -843px;
+        left: 520px;
+    }
+    .how_section {
+        background-image: none;
+    }
+}
+/*TABLE*/

@@ -1,6 +1,8 @@
 new Splide('#image-carousel', {
     direction: 'ttb',
-    height: '200px'
+    height: '200px',
+    autoplay: true,
+    interval: 2500
 }).mount();
 
 

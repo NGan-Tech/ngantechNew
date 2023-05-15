@@ -166,3 +166,108 @@
     bottom: 40px;
     right: 14px;
 }
+
+.header_button {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    border: 1px solid #FE6F27;
+    padding: 17px 40px 21px 40px;
+    z-index: 999;
+}
+.header_button:hover {
+    background-color: #FE6F27;
+}
+.header_tel {
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 50px;
+    border-bottom: 1px solid #00FDFF;
+}
+.header_cubik1 {
+    height: 20px;
+    width: 20px;
+    border-bottom: 1px solid #FE6F27;
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    transform: rotate(-45deg);
+    background-color: #1a1a1a;
+    z-index: 9999;
+}
+.header_cubik2 {
+    height: 20px;
+    width: 20px;
+    border-top: 1px solid #FE6F27;
+    position: absolute;
+    background-color: #1a1a1a;
+    transform: rotate(-45deg);
+    bottom: -9px;
+    right: -9px;
+    z-index: 9999;
+}
+
+.header_cnt {
+    display: flex;
+    position: relative;
+}
+/*/// ADAPTIVE ///*/
+@media screen and (min-width: 650px){
+    .burger_wrapper {
+        display: none;
+    }
+    .header_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        top: 1px;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .burger_wrapper {
+        display: block;
+    }
+    .header_wrapper {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .header {
+        background-image: url("../img/sotaDesktop.svg");
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1087px) {
+    .header_button {
+        font-size: 17px;
+        padding: 12px 20px 14px 20px;
+    }
+    .header_tel {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .header {
+        background-size: 30%;
+    }
+}
+
+
+/*TABLE*/
+
+
+
+/*TABLE*/

@@ -53,8 +53,15 @@ body {
 }
 
 [class*="__container"] {
-    max-width: 300px;
+    max-width: 330px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 680px) {
+    [class*="__container"] {
+        max-width: 650px;
+    }
 }
 
 .btn {
@@ -168,4 +175,10 @@ textarea {
     left: 10px;
     z-index: 999;
     backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 651px) and (max-width:1080px){
+    body {
+        background-image: none;
+    }
 }

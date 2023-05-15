@@ -1,5 +1,5 @@
 
-.finally {
+.finally_section {
     margin-bottom: 30px;
 }
 
@@ -35,7 +35,6 @@
     background: rgba(255, 132, 2, 0.4);
     backdrop-filter: blur(20px);
     border: 1px solid #FF9900;
-
 }
 
 .form_name:focus {
@@ -123,27 +122,6 @@
     border: 1px solid #FF9900;
     backdrop-filter: blur(20px);
     position: relative;
-}
-
-.btn {
-}
-
-.btn-text {
-}
-
-.serifs {
-}
-
-.parent {
-}
-
-.main {
-}
-
-.back {
-}
-
-.border {
 }
 
 .button_text {
@@ -309,4 +287,65 @@
     z-index: 1;
     background-color: #1a1a1a;
     transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 680px) {
+    .form_name {
+        width: 320px;
+        height: 50px;
+    }
+    .form_phone {
+        width: 320px;
+        height: 50px;
+    }
+    .form_mail {
+        width: 320px;
+        height: 50px;
+    }
+    .form_company {
+        width: 320px;
+        height: 50px;
+    }
+    .form_money {
+        width: 611px;
+        height: 50px;
+    }
+    .form_text {
+        width: 99%;
+    }
+    .wrapper_textarea {
+        width: 611px;
+    }
+    .input-file {
+        top: 1px;
+        left: 464px;
+    }
+    .input-cnt-1_cubik2 {
+        top: 37px;
+        left: 598px;
+    }
+    .input-cnt-2_cubik2 {
+        top: 37px;
+        left: 598px;
+    }
+    .input-cnt-3_cubik2 {
+        top: 37px;
+        left: 598px;
+    }
+    .input-cnt-4_cubik2 {
+        top: 108px;
+        left: 600px;
+    }
+    .finally_section {
+        background-image: url("../img/sotaDesktop5.svg");
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1080px) {
+    .finally_section {
+        background-image: url("../img/sotaDesktop5.svg");
+        background-position: left bottom;
+        background-size: 15%;
+        background-repeat: no-repeat;
+    }
 }

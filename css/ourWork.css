@@ -1,4 +1,4 @@
-.our_work {
+.ourWork_section {
     margin-top: 18px;
     padding-bottom: 50px;
     border-style: solid;
@@ -61,4 +61,18 @@
 .splide__pagination__page.is-active{
     background-color: #FF5500 !important;
     border: 1px solid #FF5500 !important;
+}
+
+@media screen and (min-width: 650px) {
+    .ourWork_section {
+        background-image: url("../img/sotaDesktop3.svg");
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1080px) {
+    .ourWork_section {
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 27%;
+    }
 }
