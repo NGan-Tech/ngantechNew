@@ -119,26 +119,25 @@
         left: -219px;
         position: relative;
         height: 300px;
+        overflow-x: hidden;
     }
     .round_1 {
         width: 135px;
         height: 135px;
-        position: static;
+
     }
     .round_2 {
         width: 135px;
         height: 135px;
-        position: static;
+
     }
     .round_3 {
         width: 135px;
         height: 135px;
-        position: static;
     }
     .round_4 {
         width: 135px;
         height: 135px;
-        position: static;
     }
     .round_1-text {
         font-size: 15px;
@@ -199,6 +198,9 @@
         width: 135px;
         height: 200px;
     }
+    .line__container{
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 679px) {
@@ -221,5 +223,60 @@
     .how_section {
         background-image: none;
     }
+    .line__container, .wrapper_line {
+        height: 400px;
+    }
 }
 /*TABLE*/
+
+
+@media screen and (min-width: 1200px) {
+    .punctir_desktop {
+        width: 1366px;
+    }
+
+    .round_1 {
+        width: 235px;
+        height: 200px;
+        top: -13px;
+    }
+    .round_1-text {
+        left: 85px;
+        top: 143px;
+        font-size: 20px;
+        margin: 0;
+    }
+    .round_2{
+        width: 235px;
+        height: 200px;
+        top: -27px;
+        left: 10px;
+    }
+    .round_2-text{
+        font-size: 20px;
+        top: 125px;
+        right: -40px;
+    }
+    .round_3{
+        width: 235px;
+        height: 200px;
+        top: -27px;
+        left: 50px;
+    }
+    .round_3-text{
+        font-size: 20px;
+        top: 125px;
+        right: -80px;
+    }
+    .round_4 {
+        width: 235px;
+        height: 200px;
+        top: -25px;
+        left: 86px;
+    }
+    .round_4-text{
+        font-size: 20px;
+        top: 127px;
+        right: -118px;
+    }
+}

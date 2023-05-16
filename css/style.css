@@ -38,6 +38,7 @@ body {
     background-position: left top;
     background-color: #1A1A1A;
     color: white;
+    overflow-x: hidden;
 }
 
 
@@ -56,6 +57,10 @@ body {
     max-width: 330px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.none{
+    display: none;
 }
 
 @media screen and (min-width: 680px) {
@@ -158,7 +163,8 @@ textarea {
 
 .arrow {
     position: absolute;
-    max-width: 100vw
+    max-width: 100vw;
+    z-index: -20;
 }
 
 
@@ -177,8 +183,96 @@ textarea {
     backdrop-filter: blur(5px);
 }
 
-@media screen and (min-width: 651px) and (max-width:1080px){
+@media screen and (min-width: 650px) and (max-width:1080px){
     body {
         background-image: none;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .arrow_mobile {
+        display: block;
+    }
+
+    .arrow_desktop {
+        display: none;
+    }
+}
+.sidebar-line {
+    height: 2px;
+    width: 80px;
+    background-color: #C4C4C4;
+    transform: rotate(90deg);
+    margin-top: 200px;
+}
+.sidebar_social-icon {
+    height: 26px;
+    margin-bottom: 25px;
+}
+.tg-sidebar {
+    width: 28px;
+    height: 23px;
+}
+.inst-sidebar {
+    height: 28px;
+    width: 28px;
+}
+.vk-sidebar {
+    width: 28px;
+    height: 16px !important;
+}
+@media screen and (min-width: 650px) {
+    .arrow_mobile {
+        display: none;
+    }
+
+    .arrow_desktop {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sidebar{
+        width: 110px;
+        height: 700px;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333333;
+        background: linear-gradient(180.23deg, rgba(51, 51, 51, 0.57) 1.99%, rgba(51, 51, 51, 0.564062) 30.01%, rgba(51, 51, 51, 0.536257) 77.23%, rgba(51, 51, 51, 0.536429) 93.32%, rgba(26, 26, 26, 0) 103.75%);
+    }
+    .sidebar_logo{
+        margin-top: 10px;
+        width: 74px;
+        height: 74px;
+        margin-bottom: 30px;
+    }
+    .sidebar_title{
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #C4C4C4;
+        transform: rotate(-90deg);
+        margin-top: 100px;
+        width: 280px;
+    }
+    .sidebar_socials{
+        display: flex;
+        flex-direction: column;
+        margin-top: 95px;
+    }
+}
+    

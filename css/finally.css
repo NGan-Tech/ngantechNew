@@ -338,6 +338,8 @@
     }
     .finally_section {
         background-image: url("../img/sotaDesktop5.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
     }
 }
 
@@ -347,5 +349,46 @@
         background-position: left bottom;
         background-size: 15%;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form_name {
+        width: 428px;
+    }
+
+    .form_phone {
+        width: 428px;
+    }
+
+    .form_company {
+        width: 428px;
+    }
+    .form_mail {
+        width: 428px;
+
+    }
+    .form_money{
+        width: 817px;
+    }
+    .wrapper_textarea{
+        width: 817px;
+        margin-bottom: 30px;
+    }
+    .input-cnt-1_cubik2{
+        left: 805px;
+    }
+    .input-cnt-2_cubik2{
+        left: 805px;
+    }
+    .input-cnt-3_cubik2{
+        left: 805px;
+    }
+    .input-cnt-4_cubik2{
+        left: 805px;
+    }
+    .input-file {
+        top: 1px;
+        left: 657px;
     }
 }

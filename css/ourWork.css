@@ -63,9 +63,12 @@
     border: 1px solid #FF5500 !important;
 }
 
+
+
 @media screen and (min-width: 650px) {
     .ourWork_section {
         background-image: url("../img/sotaDesktop3.svg");
+        background-repeat: no-repeat;
     }
 }
 

@@ -214,3 +214,73 @@
         background-image: url("../img/sotaDesktop4.svg");
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .services_swiper__container{
+        display: none;
+    }
+
+    .card {
+        width: 338px;
+        height: 500px;
+        background: rgba(255, 132, 2, 0.4);
+        backdrop-filter: blur(20px);
+        border: 4px solid #FF9900;
+    }
+
+    .cards_wrapper {
+        display: flex;
+        gap: 66px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .card_title {
+        margin-top: 20px;
+        margin-bottom: 71px;
+        font-family: 'Jura';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 36px;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+
+    .margin {
+        margin-bottom: 34px;
+    }
+
+    ul li{
+        list-style: disc;
+
+    }
+
+    .card_list_item {
+        margin-left: 39px;
+        margin-bottom: 20px;
+        color: #0AF9FA;
+    }
+
+    .card_list_item_text {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .marginUL{
+        margin-bottom: 17px;
+    }
+    .h2_text {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cards_wrapper{
+        display: none;
+    }
+}
+

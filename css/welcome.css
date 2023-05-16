@@ -40,3 +40,21 @@
         background-size: 30%;
     }
 }
+
+@media screen and (min-width: 1081px) {
+    .welcome_section {
+        background-size: 30%;
+        background-position: left center;
+        padding-bottom: 100px;
+    }
+}
+    
+@media screen and (min-width: 1200px) {
+    [class*="__container"] {
+        max-width: 857px;
+        
+    }
+    .about_text {
+        font-size: 19px;
+    }
+}

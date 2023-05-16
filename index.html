@@ -18,8 +18,10 @@
   <link rel="stylesheet" href="css/how.css"/>
   <link rel="stylesheet" href="css/finally.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/ourWork_slider.css">
   <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -27,13 +29,13 @@
     <div class="header_wrapper">
       <div class="header_cnt">
         <div class="header_cubik1"></div>
-        <div class="header_button">Главная</div>
-        <div class="header_button">Услуги</div>
-        <div class="header_button">Портфолио</div>
-        <div class="header_button">Контакты</div>
-        <div class="header_cubik2"></div>
+        <a  href="#header" class="header_button">Главная</a>
+        <a href="#services" class="header_button">Услуги</a>
+        <a href="#our_work" class="header_button">Портфолио</a>
+        <a href="#footer" class="header_button">Контакты</a>
+        <a class="header_cubik2"></a>
       </div>
-      <a class="header_tel" href="tel:79635794953">
+      <a class="header_tel" href="tel:+79635794953">
         +7 963 579 49 53
       </a>
     </div>
@@ -84,28 +86,67 @@
 
   </header>
   <i>
-    <img src="./img/arrow1.svg" style="top: 50px;" class="arrow" alt="arrow"/>
+    <img src="./img/arrow1.svg" style="top: 50px;" class=" arrow arrow_mobile" alt="arrow"/>
     <img src="./img/arrow2.svg" style="top: 120px; left: 40px" class="arrow" alt="arrow2"/>
     <img src="./img/arrow3.svg" style="top: 130px; right: 20px" class="arrow" alt="arrow3"/>
-    <img src="./img/arrow4.svg" style="top: 230px;" class="arrow" alt="arrow4"/>
-    <img src="./img/arrow5.svg" style="top: 300px;" class="arrow" alt="arrow5"/>
-    <img src="./img/arrow6.svg" style="top: 335px;left: 50vw;" class="arrow" alt="arrow6"/>
-    <img src="./img/arrow7.svg" style="top: 550px;" class="arrow" alt="arrow7"/>
+    <img src="./img/arrow4.svg" style="top: 230px;" class="arrow arrow_mobile" alt="arrow4"/>
+    <img src="./img/arrow5.svg" style="top: 300px;" class="arrow arrow_mobile" alt="arrow5"/>
+    <img src="./img/arrow6.svg" style="top: 335px;left: 50vw;" class="arrow arrow_mobile" alt="arrow6"/>
+    <img src="./img/arrow7.svg" style="top: 550px;" class="arrow arrow_mobile" alt="arrow7"/>
     <img src="./img/arrow8.svg" style="top: 630px; left: 5vw" class="arrow" alt="arrow8"/>
     <img src="./img/arrow8.svg" style="top: 650px; left: 70vw" class="arrow" alt="arrow9"/>
     <img src="./img/arrow9.svg" style="top: 600px; left: 50vw" class="arrow" alt="arrow9"/>
-    <img src="./img/arrow10.svg" style="top: 700px;" class="arrow" alt="arrow10"/>
-    <img src="./img/arrow11.svg" style="top: 830px;" class="arrow" alt="arrow11"/>
-    <img src="./img/arrow12.svg" style="top: 985px;" class="arrow" alt="arrow12"/>
-    <img src="./img/arrow13.svg" style="top: 1200px;" class="arrow" alt="arrow13"/>
+    <img src="./img/arrow10.svg" style="top: 700px;" class="arrow arrow_mobile" alt="arrow10"/>
+    <img src="./img/arrow11.svg" style="top: 830px;" class="arrow arrow_mobile" alt="arrow11"/>
+    <img src="./img/arrow12.svg" style="top: 985px;" class="arrow arrow_mobile" alt="arrow12"/>
+    <img src="./img/arrow13.svg" style="top: 1200px;" class="arrow arrow_mobile" alt="arrow13"/>
     <img src="./img/arrow14.svg" style="top: 1450px; left: 45vw" class="arrow" alt="arrow14"/>
-    <img src="./img/arrow15.svg" style="top: 1740px" class="arrow" alt="arrow15"/>
-    <img src="./img/arrow16.svg" style="top: 1900px" class="arrow" alt="arrow16"/>
+    <img src="./img/arrow15.svg" style="top: 1740px" class="arrow arrow_mobile" alt="arrow15"/>
+    <img src="./img/arrow16.svg" style="top: 1900px" class="arrow arrow_mobile" alt="arrow16"/>
     <img src="./img/arrow17.svg" style="top: 2100px" class="arrow" alt="arrow17"/>
-    <img src="./img/arrow18.svg" style="top: 2200px" class="arrow" alt="arrow18"/>
-    <img src="./img/arrow19.svg" style="top: 2300px" class="arrow" alt="arrow19"/>
+    <img src="./img/arrow18.svg" style="top: 2200px" class="arrow arrow_mobile" alt="arrow18"/>
+    <img src="./img/arrow19.svg" style="top: 2300px" class="arrow arrow_mobile" alt="arrow19"/>
+
+    <img src="./img/lineDesktop1.svg" style="top: 27px" alt="arrow20" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop2.svg" style="top: 86px" alt="arrow21" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop3.svg" style="top: 232px" alt="arrow22" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop4.svg" style="top: 462px" alt="arrow23" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop5.svg" style="top: 704px" alt="arrow24" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop6.svg" style="top: 820px" alt="arrow25" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop7.svg" style="top: 974px" alt="arrow26" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop8.svg" style="top: 1168px" alt="arrow27" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop9.svg" style="top: 1200px" alt="arrow29" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop10.svg" style="top: 1555px" alt="arrow30" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop11.svg" style="top: 1796px" alt="arrow31" class="arrow arrow_desktop">
+    <img src="./img/lineDesktop12.svg" style="top: 2140px" alt="arrow32" class="arrow arrow_desktop">
+
+
+
+
+
+
+
+
+
+
   </i>
   <main class="main">
+    <div class="sidebar">
+      <img src="./img/Логотип.svg" alt="Logo1" class="sidebar_logo">
+      <p class="sidebar_title">контактная информация</p>
+      <div class="sidebar-line"></div>
+      <div class="sidebar_socials">
+        <a href="#">
+          <img src="./img/tg-sidebar.svg" alt="tg" class="sidebar_social-icon tg-sidebar">
+        </a>
+        <a href="#">
+          <img src="./img/inst-sidebar.svg" alt="inst" class="inst-sidebar sidebar_social-icon ">
+        </a>
+        <a href="#">
+          <img src="./img/vk-sidebar.svg" alt="vk" class="sidebar_social-icon vk-sidebar">
+        </a>
+      </div>
+    </div>
     <section class="welcome_section">
       <div class="welcome__container">
         <h2 class="h2_text">
@@ -163,9 +204,38 @@
           и эффективные решения. Мы готовы помочь вам достичь успеха в вашем бизнесе с помощью наших IT-решений.</p>
       </div>
     </section>
-    <section class="ourWork_section" id="our_work">
+    <section id="our_work" class="ourWork_section">
       <h2 class="h2_text"><span class="blue_text">Наши</span> Работы</h2>
-      <div class="wrapper_carousel">
+      <div class="swiper-container" id="js-carousel">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 1" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 2" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 3" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 4" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 5" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 6" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 7" class="swiper-img-desktop" alt="">
+          </div>
+          <div class="swiper-slide" style="text-align: center">
+            <img src="https://via.placeholder.com/420x380?text=Img 8" class="swiper-img-desktop" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="wrapper_carousel__mobile">
         <div class="cubik1"></div>
         <div id="image-carousel" class="splide" aria-label="Beautiful Images">
           <div class="splide__track">
@@ -197,7 +267,7 @@
               <li class="splide__slide">
                 <div class="slide_inforamtion">
                   <div class="wrapper_card">
-                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}">
+                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;">
                       <span class="blue_text">Web </span>Разработка</h3>
                     <span class="span_services">от 55.000 ₽</span>
                     <ul class="services_ul">
@@ -235,7 +305,7 @@
               <li class="splide__slide caru btn3">
                 <div class="slide_inforamtion">
                   <div class="wrapper_card">
-                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;}">
+                    <h3 class="h3_text_services" style="display: flex;justify-content: center;align-items: center;">
                       <span class="blue_text">доп.</span> услуги</h3>
                     <div class="span_services">от 250.000 ₽</div>
                     <ul class="services_ul">
@@ -257,6 +327,155 @@
         </div>
         <div class="sevice_cubik1"></div>
         <div class="sevice_cubik2"></div>
+      </div>
+      <div class="cards_wrapper">
+
+        <div class="card">
+          <h2 class="card_title"><span class="blue_text">WEB</span> РАЗРАБОТКА <br> от 55.000 ₽</h2>
+          <ul class="card_list">
+            <li class="card_list_item"><span class="card_list_item_text">LANDING PAGE</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">РАЗРАБОТКА ONLINE МАГАЗИНОВ</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">РАЗРАБОТКА МОБИЛЬНЫХ ПРИЛОЖЕНИЙ</span></li>
+          </ul>
+          <a href="#form">
+            <div class="btn">
+              <!-- Текст -->
+              <span class="btn-text">Оставить заявку</span>
+              <!-- Засечки -->
+              <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="4" y1="10" x2="38" y2="10" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="282" y1="39" x2="305" y2="39" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="60" y1="46" x2="70" y2="46" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="70" y1="49" x2="80" y2="49" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="224" y1="1" x2="234" y2="1" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="286" y1="43" x2="320" y2="43" stroke="#00FDFF" stroke-width="2"/>
+              </svg>
+
+              <div class="parent">
+                <svg class="main" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+
+                <!-- Фон оранжевой рамки -->
+                <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+              </div>
+
+              <!-- Оранжевая рамка -->
+
+              <!-- Синий бордер -->
+              <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <h2 class="card_title margin"><span class="blue_text">ФИНАНСОВЫЕ</span> И <span CLASS="blue_text">БИЗНЕС</span> РЕШЕНИЯ от 250.000 ₽ </h2>
+          <ul class="card_list">
+            <li class="card_list_item"><span class="card_list_item_text">РАЗРАБОТКА КРИПТОБИРЖ</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">РАЗРАБОТКА NFT И МАРКЕТПЛЕЙСОВ</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">НАПИСАНИЕ КОРПОРАТИВНЫХ ПЛАТФОРМ</span></li>
+          </ul>
+          <a href="#form">
+            <div class="btn">
+              <!-- Текст -->
+              <span class="btn-text">Оставить заявку</span>
+              <!-- Засечки -->
+              <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="4" y1="10" x2="38" y2="10" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="282" y1="39" x2="305" y2="39" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="60" y1="46" x2="70" y2="46" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="70" y1="49" x2="80" y2="49" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="224" y1="1" x2="234" y2="1" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="286" y1="43" x2="320" y2="43" stroke="#00FDFF" stroke-width="2"/>
+              </svg>
+
+              <div class="parent">
+                <svg class="main" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+
+                <!-- Фон оранжевой рамки -->
+                <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+              </div>
+
+              <!-- Оранжевая рамка -->
+
+              <!-- Синий бордер -->
+              <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <h2 class="card_title"><span class="blue_text">ДОП.</span> УСЛУГИ <br> от 20.000 ₽</h2>
+          <ul class="card_list marginUL">
+            <li class="card_list_item"><span class="card_list_item_text">РАЗРАБОТКА БОТОВ ДЛЯ <br> ЛЮБЫХ МЕССЕНДЖЕРОВ И СОЦ.СЕТЕЙ</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">БРАУЗЕРНЫЙ GAME DEV</span></li>
+            <li class="card_list_item"><span class="card_list_item_text">TELEGRAM GAME DEV</span></li>
+          </ul>
+          <a href="#form">
+            <div class="btn">
+              <!-- Текст -->
+              <span class="btn-text">Оставить заявку</span>
+              <!-- Засечки -->
+              <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="4" y1="10" x2="38" y2="10" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="282" y1="39" x2="305" y2="39" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="60" y1="46" x2="70" y2="46" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="70" y1="49" x2="80" y2="49" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="224" y1="1" x2="234" y2="1" stroke="#00FDFF" stroke-width="2"/>
+                <line x1="286" y1="43" x2="320" y2="43" stroke="#00FDFF" stroke-width="2"/>
+              </svg>
+
+              <div class="parent">
+                <svg class="main" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+
+                <!-- Фон оранжевой рамки -->
+                <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
+                        stroke-width="3"/>
+                </svg>
+              </div>
+
+              <!-- Оранжевая рамка -->
+
+              <!-- Синий бордер -->
+              <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
+              </svg>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
     <section class="how_section">
@@ -320,11 +539,9 @@
             </label>
             <div class="input-cnt-4_cubik2"></div>
           </div>
-          <div onclick="sendMessage()">
+          <div style="margin-bottom: 30px;" onclick="sendMessage()">
             <div class="btn">
-              <!-- Текст -->
               <span class="btn-text">Оставить заявку</span>
-              <!-- Засечки -->
               <svg class="serifs" width="320" height="50" viewBox="0 0 320 50" fill="none"
                    xmlns="http://www.w3.org/2000/svg">
                 <line y1="6" x2="23" y2="6" stroke="#00FDFF" stroke-width="2"/>
@@ -341,16 +558,12 @@
                   <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" stroke="#FF5500"
                         stroke-width="3"/>
                 </svg>
-
-                <!-- Фон оранжевой рамки -->
                 <svg class="back" width="287" height="60" viewBox="0 0 287 60" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.5 1.5H257.666L285.5 20.5472V58.5H29.3339L1.5 39.4528V1.5Z" fill="#FF5500" stroke="#FF5500"
                         stroke-width="3"/>
                 </svg>
               </div>
-              <!-- Оранжевая рамка -->
-              <!-- Синий бордер -->
               <svg class="border" width="263" height="46" viewBox="0 0 263 46" fill="none"
                    xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.5 39.5L7 45.0017H262V4.75781L257.5 0.5" stroke="#00FDFF"/>
@@ -368,10 +581,9 @@
   </div>
   <footer id="footer" class="footer">
     <div class="footer__container">
-
       <div class="footer-1">
-        <img src="./img/image 47.svg" alt="footer logo" class="footer-logo">
-        <h3 class="footer-title">NGan Tech - мощь технологий, подчиненные вашим желаниям</h3>
+        <img src="./img/Логотип 2.svg" alt="footer logo" class="footer-logo">
+        <h3 class="footer-title">NGan Tech - мощь технологий,<br> подчиненные вашим желаниям</h3>
       </div>
 
       <div class="footer-2">
@@ -379,14 +591,14 @@
 
         <div class="footer-media">
           <div class="footer-socials">
-            <img src="./img/tg.svg" alt="tg" class="tg">
-            <img src="./img/inst.svg" alt="inst" class="inst">
-            <img src="./img/vk.svg" alt="vk" class="vk">
+            <a href="#"> <img src="./img/tg.svg" alt="tg" class="footer_social tg"> </a>
+            <a href="#"> <img src="./img/inst.svg" alt="inst" class="footer_social inst"> </a>
+            <a href="#"> <img src="./img/vk.svg" alt="vk" class="footer_social vk"> </a>
           </div>
         </div>
-
+        <a href="tel:+79635794953"><p class="footer-phone">+7 963 579 49 53</p></a>
       </div>
-      <a href="tel:+79635794953"><p class="footer-phone">+7 963 579 49 53</p></a>
+
     </div>
   </footer>
 </div>

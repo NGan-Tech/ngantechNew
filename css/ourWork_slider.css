@@ -1,0 +1,75 @@
+@media screen and (max-width: 1200px) {
+    .swiper-container {
+        display: none;
+    }
+    .swiper-container2 {
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .wrapper_carousel__mobile {
+        display: none;
+    }
+    .swiper-container {
+        z-index: 1;
+        margin-top: 40px !important;
+        display: block;
+        width: 100vw;
+        height: 380px;
+        border-style: solid;
+        border-width: 0;
+        border-bottom-width: 11px;
+        border-top-width: 11px; /* Добавлено */
+        border-image-source: url('../img/line2.svg');
+        border-image-slice: 15; /* Изменено */
+    }
+    .swiper-container2 {
+        display: block;
+        width: 100vw;
+        height: 380px;
+    }
+    .wrapper_carousel__desktop {
+        width: 100vw;
+        height: 380px;
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+    }
+    .swiper-wrapper {
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+    }
+    .swiper-wrapper2 {
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+    }
+    .wrapper_carousel__slide__desktop {
+        width: 420px;
+        height: 380px;
+
+    }
+    .swiper-img-desktop {
+        border-left: 2px solid #FF9900 !important;
+    }
+    .swiper-slide {
+        margin-left: 2px !important;
+        width: 420px !important;
+        height: 380px !important;
+    }
+    .swiper-slide2 {
+        margin-left: 2px !important;
+        width: 420px !important;
+        height: 380px !important;
+    }
+    .our_work {
+        border-image-source: none;
+        border-image-slice: inherit;
+        border-width: 0;
+        border-bottom-width: 0px;
+    }
+    .welcome_section {
+        border-image-source: none;
+        border-image-slice: inherit;
+        border-width: 0;
+        border-bottom-width: 0px;
+    }
+}
