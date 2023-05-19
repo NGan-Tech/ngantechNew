@@ -55,11 +55,11 @@
         padding-bottom: 100px;
     }
 }
-    
+
 @media screen and (min-width: 1200px) {
     [class*="__container"] {
         max-width: 857px;
-        
+
     }
     .about_text {
         font-size: 21px;
