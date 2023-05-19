@@ -28,6 +28,13 @@
     letter-spacing: -0.015em;
 }
 
+.welcome_section__btn {
+    display: block;
+    width: 320px;
+    height: 65px;
+    margin: 0 auto;
+}
+
 @media screen and (min-width: 650px) {
     .welcome_section {
         background-image: url('../img/sotaDescktop.svg');
@@ -55,6 +62,14 @@
         
     }
     .about_text {
-        font-size: 19px;
+        font-size: 21px;
+    }
+    .welcome__container {
+        height: 350px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

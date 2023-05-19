@@ -19,3 +19,9 @@ var swiper = new Swiper('#js-carousel', {
         delay: 1,
     }
 });
+
+new Splide('#advantages-carousel', {
+    type: 'loop',
+    height: '370px',
+    width: '200px',
+}).mount();

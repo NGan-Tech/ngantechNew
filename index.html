@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ngantech">
+  <meta name="copyright" lang="ru" content="ООО ЭНГАН ТЕХ" />
+  <meta name="keywords" content="Сайт, Site, ИТ Компания, IT Company">
+  <meta name="og:title" content="NGan Tech">
+  <meta name="og:description" content="Мы – компания по разработке сайтов «NGanTech» готовы воплотить любую вашу идею в реальность!">
+  <meta name="description" content="Мы – компания по разработке сайтов «NGanTech» готовы воплотить любую вашу идею в реальность!">
   <title>NganTech</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -132,7 +140,10 @@
   </i>
   <main class="main">
     <div class="sidebar">
-      <img src="./img/Логотип.svg" alt="Logo1" class="sidebar_logo">
+      <div class="sidebar_cnt">
+        <img src="./img/LogoSidebar1.svg" alt="Logo1" class="sidebar_logo">
+      </div>
+      
       <p class="sidebar_title">контактная информация</p>
       <div class="sidebar-line"></div>
       <div class="sidebar_socials">
@@ -153,7 +164,7 @@
           <span class="blue_text">IT</span> Компания по <br>
           <span class="blue_text">web</span>-разработке
         </h2>
-        <a href="#form_section">
+        <a class="welcome_section__btn" href="#form_section">
           <div class="btn">
             <!-- Текст -->
             <span class="btn-text">Оставить заявку</span>
@@ -329,7 +340,6 @@
         <div class="sevice_cubik2"></div>
       </div>
       <div class="cards_wrapper">
-
         <div class="card">
           <h2 class="card_title"><span class="blue_text">WEB</span> РАЗРАБОТКА <br> от 55.000 ₽</h2>
           <ul class="card_list">
@@ -478,11 +488,15 @@
         </div>
       </div>
     </section>
+    <section class="advantages">
+
+    </section>
     <section class="how_section">
       <h2 class="h2_text"><span class="blue_text">Как</span> Начать работать с<br> нами?</h2>
       <div>
         <div class="line__container">
           <div class="wrapper_line">
+            <img  class="punctir_desktop-2" src="./img/punctir-3.svg" alt="punctir">
             <img class="punctir" src="img/punctir.svg" alt="punctir">
             <img class="punctir_desktop" src="img/punctir_desktop.svg" alt="punctir">
             <div class="round_1__wrapper">
@@ -508,9 +522,7 @@
     <section class="finally_section" id="form_section">
       <h2 class="h2_text"><span class="blue_text">Начнём</span> работу над вашем проектом?</h2>
       <div class="finally__container">
-
         <form class="form" id="form" name="form">
-
           <div class="input-cnt-1">
             <div class="input-cnt-1_cubik1"></div>
             <input placeholder="Имя" type="text" class="form_name" id="name" name="name">
@@ -581,14 +593,18 @@
   </div>
   <footer id="footer" class="footer">
     <div class="footer__container">
-      <div class="footer-1">
-        <img src="./img/Логотип 2.svg" alt="footer logo" class="footer-logo">
-        <h3 class="footer-title">NGan Tech - мощь технологий,<br> подчиненные вашим желаниям</h3>
+      <div>
+        <div class="footer-1">
+          <div class="footer_left">
+            <img src="./img/LogoFooter.svg" alt="footer logo" class="footer-logo">
+            <h3 class="footer-title">NGan Tech - мощь технологий,<br> подчиненные вашим желаниям</h3>
+          </div>
+        </div>
+        <p class="footer-subtitle">© 2023 NGAN TECH. ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
       </div>
 
-      <div class="footer-2">
-        <p class="footer-subtitle">© 2023 NGAN TECH. ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
 
+      <div class="footer-2">
         <div class="footer-media">
           <div class="footer-socials">
             <a href="#"> <img src="./img/tg.svg" alt="tg" class="footer_social tg"> </a>
@@ -598,8 +614,8 @@
         </div>
         <a href="tel:+79635794953"><p class="footer-phone">+7 963 579 49 53</p></a>
       </div>
-
     </div>
+
   </footer>
 </div>
 </body>

@@ -8,7 +8,7 @@
     border-image-slice: 0 0 100% 0;
 }
 
-.wrapper_carousel {
+.wrapper_carousel__mobile {
     margin: 21px auto 0;
     width: 304px;
     height: 203px;
@@ -62,13 +62,55 @@
     background-color: #FF5500 !important;
     border: 1px solid #FF5500 !important;
 }
-
-
+.line__container {
+    z-index: -1;
+}
 
 @media screen and (min-width: 650px) {
     .ourWork_section {
         background-image: url("../img/sotaDesktop3.svg");
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1330px){
+    .ourWork_section {
+        background-size: 28%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ourWork_section {
+        border-bottom-width: 0px;
+        border-image-source: none;
+    }
+}
+
+@media screen and (min-width: 1330px){
+    .ourWork_section {
+        background-size: 26%;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen  and (min-width: 1500px){
+    .ourWork_section {
+        background-size: 25%;
+        padding-bottom: 120px;
+    }
+}
+
+@media screen  and (min-width: 1680px){
+    .ourWork_section {
+        background-size: 23%;
+        padding-bottom: 120px;
+    }
+}
+
+@media screen  and (min-width: 1800px){
+    .ourWork_section {
+        background-size: 21%;
+        padding-bottom: 120px;
     }
 }
 
